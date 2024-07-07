@@ -10,7 +10,7 @@ import React from 'react';
                     <div className='grid justify-start'>
                         <p className=' border rounded-full flex items-center pe-3   border-red-200 relative '><span className='p-1   bg-green-300 left-0 me-2 rounded-full  '><FaBell ></FaBell></span>   Business</p>
                     </div>
-                    <h1 className='text-5xl my-5 text-start font-bold'>Empowering startups to fuel <br /> their business growth</h1>
+                    <h1 className='text-5xl xs:text-xl sm:text-2xl my-5 text-start font-bold'>Empowering startups to fuel <br /> their business growth</h1>
                     <p className='text-start'>Eu posuere mi sed purus proin quisque molestie. Ut amet,  at amet,<br /> velit <br />
 
                         nibh arcu eu. Id sem varius malesuada tincidunt sodales.</p>

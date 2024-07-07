@@ -17,7 +17,7 @@ const Question = () => {
             Our FAQ
           </p>
         </div>
-        <h1 className="text-center text-3xl font-bold py-5 bg-red-900">
+        <h1 className="text-center text-3xl font-bold py-5 ">
           Commonly Asked Questions
         </h1>
       </div> 

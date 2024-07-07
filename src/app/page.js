@@ -19,7 +19,8 @@ export default function Home() {
       <Question/>
       {/* <Testimonial/> */}
      
-      {/* <Blog/> */}
+      <Blog/>
+
     </main>
   );
 }

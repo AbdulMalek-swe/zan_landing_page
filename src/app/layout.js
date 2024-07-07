@@ -3,6 +3,7 @@ import "./globals.css";
 import Navbar from "@/components/Navbar/Navbar";
 import NextProgress from "next-progress";
 import PogressBar from "@/lib/PogressBar";
+import Footer from "@/components/footer/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -18,6 +19,7 @@ export default function RootLayout({ children }) {
      {/* <PogressBar/> */}
      <Navbar/>
         {children}
+        <Footer/>
         </body>
     </html>
   );

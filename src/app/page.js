@@ -18,9 +18,7 @@ export default function Home() {
       <OurService/>
       <Transformation/>
       <Question/>
-     
       <Blog/>
-
     </main>
   );
 }

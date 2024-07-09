@@ -6,7 +6,7 @@ import { FaArrowRightLong } from 'react-icons/fa6';
 import Image from 'next/image';
 const Footer = () => {
     return (
-        <div className= ' py-28 grid sm:grid-cols-2 xs:grid-cols-1 lg:grid-cols-4 ms-10 gap-5'>
+        <div className= 'container mx-auto  py-28 grid sm:grid-cols-2 xs:grid-cols-1 lg:grid-cols-4  gap-5'>
             <div className='grid'>
                 {/*   <img className='w-44' src={logo} alt="" /> */}
                 <Image className=' w-32 h-16' width={1000} height={1000} src={"/image/logo.jpg"}   />

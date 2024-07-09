@@ -48,9 +48,8 @@ const Navbar = () => {
   }, []);
   // route for active page navigation 
 const pathName = usePathname();
- 
   return (
-    <div className={`top-0 fixed   z-0  w-full `}>
+    <div className={`top-0 fixed   z-50  w-full `}>
       <nav className={`flex items-center mx-auto     container justify-between px-4 py-4 md:p-0 ${shadow ? "shadow-md backdrop-blur-lg" : " bg-[#FEF6F3]"}`}>
         <div>
           <Image width={70} height={70} src={"/image/logo.png"}   />

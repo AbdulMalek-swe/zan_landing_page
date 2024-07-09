@@ -50,8 +50,8 @@ const Navbar = () => {
 const pathName = usePathname();
  
   return (
-    <div className={`top-0 fixed ${shadow ? "shadow-md backdrop-blur-lg" : " bg-[#FEF6F3]"}  z-0  w-full `}>
-      <nav className={`flex items-center mx-auto   ${shadow ? "shadow-md backdrop-blur-lg" : " bg-[#FEF6F3]"} container justify-between px-4 py-4 md:p-0`}>
+    <div className={`top-0 fixed   z-0  w-full `}>
+      <nav className={`flex items-center mx-auto     container justify-between px-4 py-4 md:p-0 ${shadow ? "shadow-md backdrop-blur-lg" : " bg-[#FEF6F3]"}`}>
         <div>
           <Image width={32} height={32} src={"/image/logo.jpg"}   />
         </div>

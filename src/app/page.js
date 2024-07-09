@@ -3,9 +3,10 @@ import Blog from "@/components/Home/Blog";
 import Form from "@/components/Home/Form";
 import HeroSection from "@/components/Home/HeroSection";
 import OurService from "@/components/Home/OurService";
-import Question from "@/components/Home/question";
+import Question from "@/components/Home/Question";
+ 
 import Support from "@/components/Home/Support";
-import Testimonial from "@/components/Home/Testimonial";
+ 
 import Transformation from "@/components/Home/Transformation";
 
 export default function Home() {
@@ -17,7 +18,6 @@ export default function Home() {
       <OurService/>
       <Transformation/>
       <Question/>
-      {/* <Testimonial/> */}
      
       <Blog/>
 

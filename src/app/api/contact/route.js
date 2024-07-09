@@ -10,14 +10,14 @@ export async function POST(req) {
   var transporter = nodemailer.createTransport({
     service: 'gmail',
     auth: {
-      user: 'abdulmalek.swe.585@gmail.com',
-      pass: 'dpwn dsef ohny xphx'
+      user: process.env.NEXT_PUBLIC_EMAIL,
+      pass: process.env.NEXT_PUBLIC_PASS
     }
   });
   
   var mailOptions = {
     from: data?.email ,
-    to:  'abdulmalek.swe.585@gmail.com',
+    to:  process.env.NEXT_PUBLIC_EMAIL,
     subject: data?.subject,
     text: data?.message_text
   };

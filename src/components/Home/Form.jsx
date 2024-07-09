@@ -49,9 +49,12 @@ const toastObj = {
         }
       } catch (error) {
         console.error('Error sending email:', error.response ? error.response.data : error.message);
-         toast.error( error.message,{
-            ...toastObj
-         })
+        
+         toast.update(toastId, {
+            ...toastObj,
+            render:error.message,
+            isLoading:false
+             }); 
       } finally {
         setLoading(false);
       }

@@ -53,7 +53,7 @@ const pathName = usePathname();
     <div className={`top-0 fixed   z-0  w-full `}>
       <nav className={`flex items-center mx-auto     container justify-between px-4 py-4 md:p-0 ${shadow ? "shadow-md backdrop-blur-lg" : " bg-[#FEF6F3]"}`}>
         <div>
-          <Image width={32} height={32} src={"/image/logo.jpg"}   />
+          <Image width={70} height={70} src={"/image/logo.png"}   />
         </div>
         <div className="hidden   md:flex gap-4">
           {navList.map((item, index) => (
